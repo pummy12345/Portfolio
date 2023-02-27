@@ -1,0 +1,148 @@
+*
+{
+    margin:0;
+    padding:0;
+    font-family:'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+ body{
+    color:white;
+    background-color: black;
+ }
+ #header
+ { 
+     width: 100%;
+     height: 85vh;
+    background-image: url(personal-portfolio-img/images/backio.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: static;
+ } 
+ .container
+ {
+    padding: 15px 20%;
+    position:sticky;
+    background-color:aqua;
+    opacity: 1;
+    
+ }
+ nav 
+ {
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    
+ }
+ nav ul li{
+    display:inline-block;
+    list-style: none;
+    margin:10px 20px;
+    margin-bottom: 10px;
+     font-weight: 300;
+
+ }
+ nav ul li a 
+ {
+    color:black;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+ }
+ nav ul li a:hover
+ {
+text-decoration:dotted;
+color: burlywood;
+ }
+ .header-text 
+ {
+    color: aqua;
+    padding-top:30px;
+     padding-left: 30px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+ }
+  
+.header-text h1{
+    font-size: 40px;
+    font-weight: 200;
+    font-style: italic;
+    color:aqua;
+    text-decoration: underline
+}
+.header-text ul
+{
+    padding-top: 10px;
+    color: white;
+     font-weight: 500;
+     font-style: oblique;
+     text-decoration: solid;
+}
+#services
+{
+    padding: 20px 0px;
+}
+.projects
+{
+    display:flex;
+     width: 100%;
+}
+#services h1
+{  padding-top: 10px;
+   padding-left: 600px;
+   padding-bottom: 30px;
+   font-display:unset;
+   font-style:normal;
+}
+.project
+{
+  background-color:rgba(0, 255, 255, 0.905);
+   padding: 20px;
+   color:black;   
+   width:100%;
+   
+
+}
+.projects img {
+   height: 300px;
+   width: 300px;
+
+}
+.contact-left
+{
+    padding-top: 100px;
+}
+.contact-left
+{
+    padding-left: 70px;
+}
+.contact-right form
+ 
+{   
+     padding-left: 200px;
+     display: flex;
+     flex-direction: column;
+     width:70%;
+      padding-bottom: 10px;
+
+}
+.contact-right form input
+{
+   color: black;
+   font-size: large;
+   border: solid 2px aqua;
+}
+.contact-right form button
+{
+   color: black;
+   font-size: large;
+   border: solid 2px palevioletred;
+    border-radius: 20px;
+}
+
+
+
+
